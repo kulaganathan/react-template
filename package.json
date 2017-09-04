@@ -2,6 +2,10 @@
   "name": "react-template",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack -d --watch",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
